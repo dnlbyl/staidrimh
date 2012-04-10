@@ -3,11 +3,16 @@
 """
 
 class PxConverter:
-    def open_cx_file(self, filename):
+    def verify_cx_text(self, cx_text):
         """
-        Opens the file, checks its format. Performs other error handling
+        Checks that the provided text is cc-axis formated.
+        Returns true if it is cx text, otherwise false.
+        TODO The pc-axis format probably has several other things that should be checked.
         """
-        return filename
+        if not isinstance(cx_text, basestring):
+            return False
+        return cx_text.startswith('AXIS-VERSION="2000"')
+        
 
     def px_to_csv(self, px):
         """

@@ -1,0 +1,309 @@
+AXIS-VERSION="2000";
+CREATION-DATE="20041108 15:35";
+CHARSET="ANSI";
+SUBJECT-AREA="Census of Agriculture, 2000";
+SUBJECT-CODE="09";
+MATRIX="coahdone";
+TITLE="Number of Farms in Donegal by District Electoral Division (DED) and "
+"Size of Holding. ";
+CONTENTS="Number of Farms in Donegal";
+DECIMALS=0;
+STUB="District Electoral Division (DED)";
+HEADING="Size of Holding";
+UNITS="Number";
+STOCKFA="S";
+REFPERIOD="June 2000";
+CONTACT="Carol Finlay, Central Statistics Office, Skehard Rd., Cork. 021 "
+"4535327.  carol.finlay@cso.ie     ";
+VALUES("District Electoral Division (DED)")=
+"33004                    Ballintra (Ballyshannon Rd)",
+"33005                    Ballyshannon Rural",
+"33007                    Bundoran Rural",
+"33008                    Carrickboy",
+"33009                    Cavangarden",
+"33010                    Cliff",
+"33011                    Ballintra (Donegal Rd)",
+"33012                    Binbane",
+"33013                    Bonnyglen",
+"33014                    Clogher",
+"33015                    Corkermore",
+"33016                    Donegal",
+"33017                    Dunkineely",
+"33018                    Eanymore",
+"33019                    Grousehall","33020                    Haugh",
+"33021                    Inver","33022                    Laghy",
+"33023                    Lough Eask",
+"33024                    Pettigoe",
+"33025                    Tantallon",
+"33026                    Tawnawully",
+"33027                    Templecarn",
+"33028                    Tullynaught","33029                    Ards",
+"33030                    Creenasmear",
+"33031                    Creeslough",
+"33032                    Cross Roads",
+"33033                    Doe Castle",
+"33034                    Dunfanaghy",
+"33035                    Dunlewy",
+"33036                    Gortahork",
+"33037                    Magheraclogher",
+"33038                    Meenaclady",
+"33039                    Annagary","33040                    Aran",
+"33041                    Ardara","33042                    Crovehy",
+"33043                    Crowkeeragh",
+"33044                    Crownarad","33045                    Dawros",
+"33046                    Doocharry",
+"33047                    Dunglow","33048                    Fintown",
+"33049                    Glencolumbkille",
+"33050                    Glengesh",
+"33051                    Glenleheen",
+"33052                    Glenties","33053                    Graffy",
+"33054                    Inishkeel","33055                    Kilcar",
+"33056                    Kilgoly",
+"33057                    Killybegs",
+"33058                    Largymore",
+"33059                    Lettermacaward",
+"33060                    Maas","33061                    Maghery",
+"33062                    Malinbeg",
+"33063                    Mulmosog","33064                    Rutland",
+"33065                    Tieveskeelta",
+"33066                    Ardmalin",
+"33067                    Ballyliffin",
+"33068                    Birdstown",
+"33069                    Buncrana Rural",
+"33070                    Burt","33071                    Carndonagh",
+"33072                    Carthage",
+"33073                    Castlecary",
+"33074                    Castleforward",
+"33075                    Culdaff",
+"33076                    Desertegny",
+"33077                    Dunaff","33078                    Fahan",
+"33079                    Glennagannon",
+"33080                    Gleneely (Inishowen Rd)",
+"33081                    Glentogher",
+"33082                    Greencastle",
+"33083                    Illies",
+"33084                    Inch Island",
+"33085                    Kilderry","33086                    Killea",
+"33087                    Malin","33088                    Mintiaghs",
+"33089                    Moville",
+"33090                    Newtown Cunningham",
+"33091                    Redcastle","33092                    Straid",
+"33093                    Three Trees",
+"33094                    Turmone",
+"33095                    Whitecastle",
+"33096                    Ballymacool",
+"33097                    Castlewray",
+"33098                    Church Hill",
+"33099                    Corravaddy",
+"33100                    Edenacarnan",
+"33101                    Gartan",
+"33102                    Gortnavern",
+"33103                    Killymasny",
+"33104                    Kincraigy",
+"33105                    Letterkenny Rural (Pt.)",
+"33106                    Magheraboy",
+"33107                    Manorcunningham",
+"33108                    Seacor",
+"33109                    Templedouglas",
+"33110                    Ballyarr",
+"33111                    Carrickart",
+"33112                    Carrowkeel",
+"33113                    Cranford",
+"33114                    Fanad North",
+"33115                    Fanad West","33116                    Glen",
+"33117                    Glenalla",
+"33118                    Greenfort",
+"33119                    Killygarvan",
+"33120                    Kilmacrenan",
+"33121                    Knockalla",
+"33122                    Loughkeel",
+"33123                    Millford",
+"33124                    Rathmelton",
+"33125                    Rathmullan",
+"33126                    Rosguill",
+"33127                    Rosnakill","33128                    Termon",
+"33129                    Altnapaste",
+"33130                    Castlefinn",
+"33131                    Cloghan","33132                    Cloghard",
+"33133                    Clonleigh North",
+"33134                    Clonleigh South",
+"33135                    Convoy","33136                    Dooish",
+"33137                    Feddyglass",
+"33138                    Figart",
+"33139                    Gleneely (Stranolar Rd)",
+"33140                    Goland",
+"33141                    Killygordon",
+"33142                    Knock","33143                    Lettermore",
+"33144                    Meencargagh",
+"33145                    Raphoe",
+"33146                    St.Johnstown",
+"33147                    Stranorlar",
+"33148                    Treantaghmucklagh",
+"33149                    Urney West";
+VALUES("Size of Holding")="<10 ha","10-<20 ha","20-<30 ha","30-<50 ha",
+"50-<100 ha",">=100 ha","Total Farms";
+NOTEX="For a small proportion of DEDs, some or all of the Census of "
+"Agriculture details are not being made available at the DED level.  "
+"The reasons for data suppression in respect of such DED's are:      #"
+"      #"
+"(i) Confidentiality, where individual farm details might be "
+"identifiable when                                #"
+"            results are presented at DED level; and       #"
+"      #"
+"(ii) Non-response, where a significant proportion of the DED total "
+"has been        #"
+"imputed (i.e. estimated).      #"
+"      #"
+"Overall, around 5% of returns had to be fully or partly imputed.      #"
+"      #"
+"Data cells which have been suppressed at DED level for these reasons "
+"are marked .; cells containing a 0 indicate that the amount of the "
+"item in question was actually zero in that DED.  The exception to "
+"this is Size of Holdings and Type of Farm where if the number of "
+"farms is less than 10 it is rounded to the nearest 10.     ";
+DATA=
+10 30 10 20 10 0 83 
+30 30 10 20 10 0 98 
+30 20 10 10 0 0 69 
+10 20 10 10 0 0 50 
+10 10 20 10 10 0 57 
+10 10 10 10 0 0 31 
+20 20 10 10 10 0 71 
+0 10 10 10 10 0 44 
+10 20 10 10 10 0 50 
+20 10 10 0 10 0 56 
+0 20 10 0 10 0 44 
+40 20 10 10 10 0 90 
+10 20 20 10 0 0 56 
+20 30 10 10 0 0 84 
+0 10 10 10 10 0 39 
+10 10 10 10 0 0 36 
+30 30 10 10 0 0 78 
+20 20 10 10 10 0 73 
+10 0 0 10 0 0 19 
+20 10 10 10 20 0 76 
+40 50 10 20 0 0 124 
+10 20 0 10 0 0 38 
+20 10 10 10 10 0 46 
+20 30 10 10 10 10 79 
+10 10 10 10 0 0 47 
+20 10 10 10 0 0 59 
+20 20 10 10 0 0 52 
+80 40 30 10 0 0 156 
+10 10 10 0 0 0 27 
+30 30 20 10 10 0 97 
+40 20 0 0 0 0 63 
+90 20 10 10 0 0 126 
+60 20 10 0 0 0 96 
+50 10 0 0 0 0 57 
+30 30 10 10 0 0 65 
+40 0 0 0 0 0 40 
+20 30 20 20 10 0 104 
+10 10 10 10 10 0 36 
+10 10 0 10 10 0 39 
+0 10 10 0 0 0 18 
+10 20 10 20 10 0 68 
+10 0 0 0 0 0 23 
+20 10 0 10 0 0 42 
+10 10 10 20 10 0 51 
+30 20 10 10 0 0 70 
+10 30 30 20 10 0 104 
+10 10 10 10 10 0 40 
+20 20 20 30 10 0 113 
+10 10 10 20 10 10 77 
+0 0 10 10 10 0 47 
+20 20 0 10 0 0 54 
+50 20 10 10 10 0 95 
+20 20 20 10 0 0 74 
+20 20 10 10 0 0 60 
+40 20 10 10 10 0 84 
+10 10 10 10 0 0 44 
+30 10 20 10 10 0 68 
+30 10 10 0 0 0 50 
+10 0 10 10 0 0 28 
+20 10 0 0 0 0 36 
+0 0 0 10 0 0 19 
+30 30 10 10 0 0 73 
+40 20 10 10 10 0 81 
+10 10 10 10 10 0 52 
+20 20 10 10 10 0 61 
+0 10 10 10 10 10 52 
+40 20 20 10 10 0 94 
+30 10 10 10 0 0 58 
+10 10 10 10 0 0 41 
+0 10 0 0 10 0 23 
+30 20 20 10 10 0 84 
+30 20 10 0 0 0 77 
+40 20 10 0 0 0 66 
+20 10 10 20 10 0 67 
+20 20 10 10 0 0 47 
+20 20 10 20 0 0 68 
+20 20 10 10 10 0 54 
+20 30 10 10 0 0 66 
+40 20 10 10 10 10 94 
+0 0 0 10 10 0 15 
+10 20 20 10 10 0 63 
+10 10 10 20 20 0 61 
+20 30 10 10 10 0 82 
+20 10 10 10 10 0 64 
+20 10 10 10 0 0 45 
+10 0 0 10 10 10 44 
+30 10 10 10 0 0 66 
+50 20 10 10 0 0 90 
+10 10 10 0 10 0 34 
+10 20 10 10 0 0 51 
+20 20 10 10 10 0 71 
+10 10 10 10 10 0 39 
+10 10 10 10 10 0 51 
+10 10 10 10 10 0 50 
+10 20 10 10 0 0 50 
+10 10 10 20 20 0 63 
+10 10 0 0 0 0 28 
+10 10 10 10 0 0 28 
+10 10 10 10 10 0 46 
+30 20 10 20 10 0 88 
+0 0 10 10 0 0 23 
+20 20 10 20 10 0 69 
+10 10 10 10 10 10 42 
+0 0 0 0 0 0 16 
+10 20 10 20 20 0 80 
+0 10 10 0 10 0 28 
+50 20 0 10 0 0 73 
+20 20 10 10 10 0 65 
+30 20 10 10 0 0 74 
+40 30 10 10 0 0 97 
+30 20 20 20 10 0 96 
+10 10 10 0 0 0 31 
+10 10 10 10 10 0 49 
+20 10 0 10 0 0 39 
+0 10 10 0 0 0 21 
+20 20 10 10 0 0 56 
+20 10 10 0 0 0 42 
+10 10 10 10 0 0 42 
+20 20 10 10 0 0 62 
+20 30 20 20 10 0 95 
+20 10 0 10 10 0 38 
+20 10 0 0 0 0 36 
+10 20 10 10 0 0 38 
+30 20 10 10 10 0 77 
+20 20 20 10 10 10 88 
+20 10 10 20 10 0 70 
+30 30 30 40 20 10 158 
+10 10 10 10 10 0 50 
+10 10 20 10 10 0 62 
+10 0 10 20 10 0 46 
+30 30 10 20 10 0 109 
+10 10 10 10 0 0 37 
+0 0 10 10 10 0 38 
+20 20 10 10 10 0 63 
+40 40 20 30 0 0 132 
+10 10 10 10 0 0 31 
+20 10 10 20 10 0 64 
+20 10 10 10 0 0 54 
+10 10 10 10 10 10 48 
+0 0 0 0 10 0 21 
+10 10 10 10 10 0 47 
+10 0 10 10 10 0 39 
+30 20 20 20 10 0 98 
+10 20 10 10 20 0 68 
+10 10 10 10 10 0 46 ;
