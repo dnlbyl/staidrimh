@@ -23,7 +23,8 @@ def flatten_px(px):
     def filter_empties(x): return len(x) > 1
     units = filter(filter_empties, units)
     
-    print units
+    units = [(x[0].strip('|'),x[1]) for x in units]
+    
     return units
     
 ## {{{ http://code.activestate.com/recipes/435882/ (r1)
@@ -45,8 +46,9 @@ def px_to_csv(px):
     """
     Converts the provided text in px format to csv text.
     """
-    if not verify_cx_text(px):
+    #if not verify_cx_text(px):
         # TODO raise exception
+        
     data = flatten_px(px)
     
     
