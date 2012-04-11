@@ -18,6 +18,8 @@ class TestSequenceFunctions(unittest.TestCase):
         self.assertTrue(px2csv.verify_cx_text(px_text));
         
         # false for invalid text
+        self.assertFalse(px2csv.verify_cx_text(None));
+        self.assertFalse(px2csv.verify_cx_text(""));
         self.assertFalse(px2csv.verify_cx_text("Gobilty gook"));
 
 #    def test_px_to_csv(self):
