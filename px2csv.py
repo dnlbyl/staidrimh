@@ -64,7 +64,8 @@ def px_to_csv(px):
 import sys    
 def main():
     px_file = open(sys.argv[1])
-    px_to_csv(px_file.read())
+    csv = px_to_csv(px_file.read())
+    print csv
 
 if __name__ == '__main__':
     main()
