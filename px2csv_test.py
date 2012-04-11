@@ -22,6 +22,10 @@ class TestSequenceFunctions(unittest.TestCase):
         self.assertFalse(px2csv.verify_cx_text(""));
         self.assertFalse(px2csv.verify_cx_text("Gobilty gook"));
 
+    def test_flatten_px(self):
+        px_data = px2csv.flatten_px(self.test_px.read())
+        self.assertEquals(19, len(px_data))
+        
 #    def test_px_to_csv(self):
 
 if __name__ == '__main__':
