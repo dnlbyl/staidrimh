@@ -42,16 +42,15 @@ def _px_data_to_csv(px_data):
     data_parts = filter(find_data, px_data)
     
     import re
-    row_headings = re.split('[|,]',data_parts[0][1])
+    row_headings = re.split('[|,]',data_parts[0][1].replace(',|',','))
     column_headings = data_parts[1][1]
     data_rows = data_parts[2][1].split('|')
     
-    csv = ',' + column_headings + '\n'
+    csv = ',' + column_headings + ',\n'
     for x,y in zip(row_headings,data_rows):
         csv += x + ',' + y.replace(' ', ',') + '\n'
     
-    print csv
-    
+    return csv
     
 def px_to_csv(px):
     """
@@ -60,8 +59,12 @@ def px_to_csv(px):
     #if not verify_cx_text(px):
         # TODO raise exception
         
-    data = flatten_px(px)
-    
-    
-    return px
+    return _px_data_to_csv(flatten_px(px))
 
+import sys    
+def main():
+    px_file = open(sys.argv[1])
+    px_to_csv(px_file.read())
+
+if __name__ == '__main__':
+    main()
