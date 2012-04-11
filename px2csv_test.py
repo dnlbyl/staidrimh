@@ -26,7 +26,8 @@ class TestSequenceFunctions(unittest.TestCase):
         px_data = px2csv.flatten_px(self.test_px.read())
         self.assertEquals(19, len(px_data))
         
-#    def test_px_to_csv(self):
+    def test_px_data_to_csv(self):
+        csv = px2csv._px_data_to_csv(px2csv.flatten_px(self.test_px.read()))
 
 if __name__ == '__main__':
     unittest.main()

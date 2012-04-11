@@ -17,7 +17,7 @@ def flatten_px(px):
     Parses the px text into a list of tuples, one for each data unit
     """
     units = _normalize_newlines(px).split(';')
-    def tok_px(x): return x.split('=')
+    def tok_px(x): return x.split('=',1)
     units = map(tok_px, units)
     
     def filter_empties(x): return len(x) > 1
@@ -34,12 +34,23 @@ def _normalize_newlines(string):
     return re.sub(r'(\r\n|\r|\n)', '|', string)
 ## end of http://code.activestate.com/recipes/435882/ }}}
 
-def _px_to_csv(px):
+def _px_data_to_csv(px_data):
     """
     Extracts the relevant parts of the px data and builds a csv formated version
     """
+    def find_data(x): return x[0].startswith("VALUES") or x[0].startswith("DATA")
+    data_parts = filter(find_data, px_data)
     
-
+    import re
+    row_headings = re.split('[|,]',data_parts[0][1])
+    column_headings = data_parts[1][1]
+    data_rows = data_parts[2][1].split('|')
+    
+    csv = ',' + column_headings + '\n'
+    for x,y in zip(row_headings,data_rows):
+        csv += x + ',' + y.replace(' ', ',') + '\n'
+    
+    print csv
     
     
 def px_to_csv(px):
