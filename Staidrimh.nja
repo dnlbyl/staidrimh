@@ -1,0 +1,21 @@
+{
+  "mainFile": "px2csv.py", 
+  "venv": "", 
+  "name": "Staidrimh", 
+  "license": "GNU General Public License v3", 
+  "url": "", 
+  "pythonPath": "python", 
+  "programParams": "test_data/holdings.px", 
+  "supported-extensions": [
+    ".py", 
+    ".html", 
+    ".jpg", 
+    ".png", 
+    ".ui", 
+    ".css", 
+    ".json", 
+    ".ini"
+  ], 
+  "project-type": "", 
+  "description": ""
+}

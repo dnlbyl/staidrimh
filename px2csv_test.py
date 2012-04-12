@@ -1,4 +1,3 @@
-
 """
  Unit tests for px2csv
 """
@@ -16,7 +15,7 @@ class TestSequenceFunctions(unittest.TestCase):
         # make sure true is returned for valid text
         px_text = self.test_px.read()
         self.assertTrue(px2csv.verify_cx_text(px_text));
-        
+
         # false for invalid text
         self.assertFalse(px2csv.verify_cx_text(None));
         self.assertFalse(px2csv.verify_cx_text(""));
@@ -25,7 +24,7 @@ class TestSequenceFunctions(unittest.TestCase):
     def test_flatten_px(self):
         px_data = px2csv.flatten_px(self.test_px.read())
         self.assertEquals(19, len(px_data))
-        
+
     def test_px_data_to_csv(self):
         csv = px2csv._px_data_to_csv(px2csv.flatten_px(self.test_px.read()))
 
