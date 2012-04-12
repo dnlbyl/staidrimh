@@ -1,0 +1,71 @@
+CHARSET="ANSI";
+AXIS-VERSION="2000";
+LANGUAGE="en";
+CREATION-DATE="20120301 11:30";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="EDA41";
+SUBJECT-AREA="";
+SUBJECT-CODE="DB";
+TITLE="Educational Institutions (Number) by Type of Educational Institution"
+"and Year";
+CONTENTS="Educational Institutions (Number)";
+UNITS="Number";
+STUB="Type of Educational Institution";
+HEADING="Year";
+VALUES("Type of Educational Institution")="Ordinary national schools","Special national schools","Non-aided first level education institutions",
+"Secondary schools","Vocational schools","Community schools","Comprehensive schools","Horology college",
+"Second level schools aided by other Departments (Agriculture/Defence)","Non-aided commercial second level education institutions",
+"HEA institutions (aided)","Other HEA institutions","Institutes of technology including Killybegs H.T.C./Tipperary Institute",
+"Teacher training primary","Teacher training home economics","Other third level education institutions aided by the Department of Education and Skills (1)",
+"Third level education institutions aided by other Departments (Justice/Defence)","Religious institutions (non-aided)",
+"Other (third level non-aided)","Aided university sector","Aided technology sector","Teacher education colleges",
+"Other third level education institutions aided by the Department of Education and Skills (2)",
+"Non-aided third level education institutions";
+VALUES("Year")="2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011";
+TIMEVAL("Year")=TLIST(A1),"2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011";
+CODES("Type of Educational Institution")="111","112","12","211","212","2131","2132","214","22","23","311","3112","312","313","314","315","32",
+"331","333","X311","X312","X313","X315","33";
+DOMAIN("Type of Educational Institution")="C02351V02955";
+LAST-UPDATED="20120301 11:27";
+SOURCE="Department of Education and Skills";
+CONTACT="Helen Maxwell, DES#Tel: 01 889 6558#Fax: 01 8896419#E-mail: statistics@educatio"
+"n.gov.ie";
+DATABASE="CSO Databank";
+REFPERIOD=" ";
+BASEPERIOD=" ";
+INFOFILE="DB_ED";
+NOTEX="Year refers to school year end, i.e 2007 refers to 2006/2007 school year.<br>"
+"<br>Data in respect of Non-Aided Schools and Colleges represent the number "
+"of such schools which provided the Department with Statistical Returns of their"
+" enrolment.  Non-aided primary schools not catering for children aged 6 or over"
+" are excluded from this table.  #Year refers to school year end, i.e 2007 ref"
+"ers to 2006/2007 school year.<br><br>Data in respect of Non-Aided Schools"
+" and Colleges represent the number of such schools which provided the Departmen"
+"t with Statistical Returns of their enrolment.  Non-aided primary schools not c"
+"atering for children aged 6 or over are excluded from this table.  ";
+DATA=
+3172 3161 3157 3155 3150 3157 3160 3160 3158 3175 3165 3165 
+121 125 125 128 128 127 124 124 124 128 130 140 
+47 37 47 35 43 44 47 37 54 24 35 42 
+424 419 416 410 406 403 398 394 389 388 384 383 
+245 247 247 247 247 247 247 247 251 253 254 254 
+67 69 71 73 74 76 76 77 77 77 78 78 
+16 16 16 16 16 16 14 14 14 14 14 14 
+1 1 1 ".." ".." ".." ".." ".." ".." ".." ".." ".." 
+16 16 13 12 9 10 11 11 10 10 9 9 
+13 12 11 11 11 11 12 13 12 14 15 15 
+7 7 7 7 7 7 7 7 ".." ".." ".." ".." 
+3 3 3 3 3 4 4 4 ".." ".." ".." ".." 
+16 16 16 16 16 16 16 16 ".." ".." ".." ".." 
+3 3 3 3 3 3 3 3 ".." ".." ".." ".." 
+2 2 2 2 2 2 2 2 ".." ".." ".." ".." 
+3 3 3 3 3 2 2 2 ".." ".." ".." ".." 
+2 2 2 2 2 2 2 2 2 2 2 2 
+5 5 5 5 4 5 5 5 3 3 2 2 
+15 13 14 14 16 18 14 18 ".." ".." ".." ".." 
+".." ".." ".." ".." ".." ".." ".." ".." 7 7 7 7 
+".." ".." ".." ".." ".." ".." ".." ".." 15 15 15 15 
+".." ".." ".." ".." ".." ".." ".." ".." 7 7 7 7 
+".." ".." ".." ".." ".." ".." ".." ".." 3 3 4 4 
+".." ".." ".." ".." ".." ".." ".." ".." 12 11 13 12;
